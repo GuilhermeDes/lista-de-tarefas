@@ -177,6 +177,7 @@ h1 {
     width: 90%;
     border-bottom: 1px solid black;
 }
+
 .checkbox {
     content: "";
     border: 20px;
@@ -184,3 +185,17 @@ h1 {
     border: solid white;
     padding: 1%;
 }
+
+/*
+.agenda::after{
+    content: '';
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    background-color: #FBE357;
+    border-radius: 100%;
+    filter: blur(152px);
+    transition: 0.5s;
+}
+*/
